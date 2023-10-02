@@ -5,7 +5,6 @@ import NavBar from './components/NavBar.vue'
 <template>
   <NavBar />
   <h1>You have been logged out</h1>
-  <h1>Congrats</h1>
 
   <h2>Logging in will be implemented in a future update.</h2>
 </template>
@@ -13,12 +12,13 @@ import NavBar from './components/NavBar.vue'
 
 <style>
 h1{
-    font-size: 8em;
+    font-size: 3em;
+    margin-left: 10px;
 }
 
 h2{
     position: absolute;
-    margin-top: 13em;
+    margin-top: 32em;
     margin-left: 1em;
 
 }
