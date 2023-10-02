@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-const brand = ref('🏢 Fake Company Directory')
+const brand = ref('🏢 Fake People Generator')
 </script>
 
 <template>
@@ -10,8 +10,6 @@ const brand = ref('🏢 Fake Company Directory')
                 <span class="brand-title"><a href="index.html" >{{ brand }}</a></span>
             </div>
             <div class="menu">
-                <a href="#" class="menu-item">Departments</a>
-                <a href="#" class="menu-item">Settings</a>
                 <a href="logout.html" class="menu-login">Logout</a>
             </div>
         </div>

@@ -8,7 +8,6 @@ import MainPagination from './MainPagination.vue'
     <div class="wrapper">
         <MainSearch />
         <MainCards />
-        <MainPagination />
     </div>
 </template>
 
