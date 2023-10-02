@@ -7,12 +7,12 @@ const brand = ref('🏢 Fake Company Directory')
     <nav>
         <div class="wrapper">
             <div class="brand">
-                <span class="brand-title">{{ brand }}</span>
+                <span class="brand-title"><a href="index.html" >{{ brand }}</a></span>
             </div>
             <div class="menu">
                 <a href="#" class="menu-item">Departments</a>
                 <a href="#" class="menu-item">Settings</a>
-                <a href="#" class="menu-login">Logout</a>
+                <a href="logout.html" class="menu-login">Logout</a>
             </div>
         </div>
     </nav>
