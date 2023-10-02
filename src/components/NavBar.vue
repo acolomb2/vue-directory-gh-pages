@@ -24,7 +24,7 @@ const brand = ref(' Click to generate more')
             @apply container mx-auto flex w-full items-center justify-between;
             .brand{
                 &-title{
-                    @apply text-2xl font-bold text;
+                    @apply text-2xl font-bold text-white;
                 }
             }
 
