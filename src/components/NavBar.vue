@@ -1,13 +1,13 @@
 <script setup>
 import { ref } from 'vue'
-const brand = ref('🏢 Fake People Generator')
+const brand = ref(' Click to generate more')
 </script>
 
 <template>
     <nav>
         <div class="wrapper">
             <div class="brand">
-                <span class="brand-title"><a href="index.html" >{{ brand }}</a></span>
+                <span class="brand-title"><a href="index.html" > {{ brand }}</a></span>
             </div>
             <div class="menu">
                 <a href="logout.html" class="menu-login">Logout</a>
