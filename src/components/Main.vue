@@ -9,6 +9,8 @@ import MainPagination from './MainPagination.vue'
         <MainSearch />
         <MainCards />
     </div>
+
+    <h1>This app uses fakerjs to generate fake people</h1>
 </template>
 
 <style scoped lang="postcss">
