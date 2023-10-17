@@ -4,7 +4,7 @@ import MainCardsSingle from './MainCardsSingle.vue'
 
 <template>
     <div class="sub-wrapper">
-        <MainCardsSingle v-for="n in 4"/>
+        <MainCardsSingle v-for="n in 20"/>
     </div>
 </template>
 

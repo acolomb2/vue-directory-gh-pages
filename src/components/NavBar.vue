@@ -1,16 +1,18 @@
 <script setup>
 import { ref } from 'vue'
-const brand = ref(' Click to generate more')
+const brand = ref('🏢 Fake Company Directory')
 </script>
 
 <template>
     <nav>
         <div class="wrapper">
             <div class="brand">
-                <span class="brand-title"><a href="index.html" > {{ brand }}</a></span>
+                <span class="brand-title">{{ brand }}</span>
             </div>
             <div class="menu">
-                <a href="logout.html" class="menu-login">Logout</a>
+                <a href="#" class="menu-item">Departments</a>
+                <a href="#" class="menu-item">Settings</a>
+                <a href="#" class="menu-login">Logout</a>
             </div>
         </div>
     </nav>
@@ -18,13 +20,13 @@ const brand = ref(' Click to generate more')
 
 <style scoped lang="postcss">
     nav{
-        @apply flex h-20 bg-black text-white;
+        @apply flex h-20 bg-slate-900 text-slate-200;
 
         .wrapper{
             @apply container mx-auto flex w-full items-center justify-between;
             .brand{
                 &-title{
-                    @apply text-2xl font-bold text-white;
+                    @apply text-2xl font-bold text-yellow-500;
                 }
             }
 
