@@ -46,7 +46,7 @@ const brand = ref('Squares Space')
                     @apply py-2;
                 }
                 &-item{
-                    @apply rounded-md px-4 py-2 hover:bg-yellow-500 hover:text-slate-900;
+                    @apply rounded-sm px-4 py-2 hover:bg-white hover:text-black transition-all mr-4;
                 }
                 &-login{
                     @apply border-2 mr-5 rounded-sm bg-black px-4 py-2 text-white hover:bg-white hover:text-black transition-all;

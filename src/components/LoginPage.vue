@@ -22,7 +22,7 @@
 
 <template>
   <div class="loginLayout">
-    <div><h1 class="motto">OOPS! All Squares</h1></div>
+    <div><h1 class="motto font-bold">OOPS! All Squares</h1></div>
   <div>
     <form class="login-form" @submit.prevent="logUserIn">
     <input v-model="username" type="text" placeholder="Username" />
