@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import { useAuth } from '@/composables/useAuth'
 const { isAuthenticated, logout, user } = useAuth()
 const brand = ref('Squares Space')
+
 </script>
 
 <template>
@@ -48,10 +49,10 @@ const brand = ref('Squares Space')
                     @apply rounded-md px-4 py-2 hover:bg-yellow-500 hover:text-slate-900;
                 }
                 &-login{
-                    @apply mr-5 rounded-md bg-green-500 px-4 py-2 text-red-100 hover:bg-green-700;
+                    @apply border-2 mr-5 rounded-sm bg-black px-4 py-2 text-white hover:bg-white hover:text-black transition-all;
                 }
                 &-logout {
-                    @apply mx-2 rounded-md bg-red-500 px-4 py-2 text-red-100 hover:bg-red-700;
+                    @apply border-2 mr-5 rounded-sm bg-black px-4 py-2 text-white hover:bg-red-500 transition-all;
                 }
             }
         }

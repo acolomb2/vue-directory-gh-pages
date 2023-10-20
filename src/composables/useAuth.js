@@ -37,6 +37,7 @@ export const useAuth = () => {
     isAuthenticated.value = false
     user.value = {}
     router.push({ name: 'Home' })
+    window.location.reload()
   }
   return { isAuthenticated, user, login, logout }
 }
