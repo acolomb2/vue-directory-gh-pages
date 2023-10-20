@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import { useAuth } from '@/composables/useAuth'
 const { isAuthenticated, logout, user } = useAuth()
-const brand = ref('🏢 Fake Company Directory')
+const brand = ref('Squares Space')
 </script>
 
 <template>
@@ -29,13 +29,13 @@ const brand = ref('🏢 Fake Company Directory')
 
 <style scoped lang="postcss">
     nav{
-        @apply flex h-20 bg-slate-900 text-slate-200;
+        @apply flex h-20 bg-black text-slate-200;
 
         .wrapper{
-            @apply container mx-auto flex w-full items-center justify-between;
+            @apply container ml-5 mx-auto flex w-full items-center justify-between;
             .brand{
                 &-title{
-                    @apply text-2xl font-bold text-yellow-500;
+                    @apply text-2xl font-bold text-white;
                 }
             }
 
@@ -48,7 +48,7 @@ const brand = ref('🏢 Fake Company Directory')
                     @apply rounded-md px-4 py-2 hover:bg-yellow-500 hover:text-slate-900;
                 }
                 &-login{
-                    @apply rounded-md bg-green-500 px-4 py-2 text-red-100 hover:bg-green-700;
+                    @apply mr-5 rounded-md bg-green-500 px-4 py-2 text-red-100 hover:bg-green-700;
                 }
                 &-logout {
                     @apply mx-2 rounded-md bg-red-500 px-4 py-2 text-red-100 hover:bg-red-700;
