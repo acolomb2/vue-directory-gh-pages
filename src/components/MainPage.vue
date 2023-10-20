@@ -6,7 +6,6 @@ import MainPagination from '@/components/MainPagination.vue'
 
 <template>
     <div class="wrapper">
-        <MainSearch />
         <MainCards />
         <MainPagination />
     </div>
