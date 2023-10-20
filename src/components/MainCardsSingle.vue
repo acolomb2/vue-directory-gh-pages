@@ -20,23 +20,23 @@ const selectCard = () =>
         <div class="card-details">
             <p class="card-details-name">{{ fullName }}</p>
             <p class="card-details-job">{{ faker.name.jobTitle() }}, {{ faker.name.jobArea() }}</p>
-            <p class="card-details-quote">"{{ faker.lorem.paragraph() }}"</p>
+            <p class="card-details-quote">"test test test "</p>
         </div>        
     </div>
 </template>
 
 <style scoped lang="postcss">
 .card{
-    @apply  cursor-pointer overflow-hidden rounded-md bg-slate-100 p-8 shadow-md transition-transform duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-slate-900;
+    @apply overflow-hidden bg-slate-100 p-8 ;
     
     &-image{
         img{
-            @apply mx-auto rounded-full object-contain;
+            @apply  object-contain invisible;
         }
     }
 
     &-details{
-        @apply flex flex-col gap-2 pt-6 text-center;
+        @apply flex flex-col gap-2 pt-6 text-center invisible;
 
         &-name{
             @apply text-3xl font-thin tracking-wider text-slate-800;
