@@ -2,8 +2,7 @@
 import { ref } from 'vue'
 import { useAuth } from '@/composables/useAuth'
 const { isAuthenticated, logout, user } = useAuth()
-const brand = ref('Squares Space')
-
+const brand = ref('🏢 Fake Company Directory')
 </script>
 
 <template>
@@ -30,13 +29,13 @@ const brand = ref('Squares Space')
 
 <style scoped lang="postcss">
     nav{
-        @apply flex h-20 bg-black text-slate-200;
+        @apply flex h-20 bg-slate-900 text-slate-200;
 
         .wrapper{
-            @apply container ml-5 mx-auto flex w-full items-center justify-between;
+            @apply container mx-auto flex w-full items-center justify-between;
             .brand{
                 &-title{
-                    @apply text-2xl font-bold text-white;
+                    @apply text-2xl font-bold text-yellow-500;
                 }
             }
 
@@ -46,13 +45,13 @@ const brand = ref('Squares Space')
                     @apply py-2;
                 }
                 &-item{
-                    @apply rounded-sm px-4 py-2 hover:bg-white hover:text-black transition-all mr-4;
+                    @apply rounded-md px-4 py-2 hover:bg-yellow-500 hover:text-slate-900;
                 }
                 &-login{
-                    @apply border-2 mr-5 rounded-sm bg-black px-4 py-2 text-white hover:bg-white hover:text-black transition-all;
+                    @apply rounded-md bg-green-500 px-4 py-2 text-red-100 hover:bg-green-700;
                 }
                 &-logout {
-                    @apply border-2 mr-5 rounded-sm bg-black px-4 py-2 text-white hover:bg-red-500 transition-all;
+                    @apply mx-2 rounded-md bg-red-500 px-4 py-2 text-red-100 hover:bg-red-700;
                 }
             }
         }
