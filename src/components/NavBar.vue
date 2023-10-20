@@ -45,13 +45,13 @@ const brand = ref(import.meta.env.VITE_APP_NAME)
                     @apply py-2;
                 }
                 &-item{
-                    @apply rounded-md px-4 py-2 hover:bg-yellow-500 hover:text-slate-900;
+                    @apply rounded-md px-4 py-2 hover:bg-white hover:text-black transition-all;
                 }
                 &-login{
                     @apply rounded-md bg-black border-2 px-4 py-2 text-white hover:bg-white hover:text-black transition-all;
                 }
                 &-logout {
-                    @apply mx-2 rounded-md bg-red-500 px-4 py-2 text-red-100 hover:bg-red-700;
+                    @apply mx-2 rounded-md bg-black border-2 px-4 py-2 text-white hover:bg-red-500 transition-all;
                 }
             }
         }
